@@ -22,8 +22,8 @@ export const Route = createFileRoute("/preorder")({
   component: PreOrderPage,
 });
 
-// Price: ₹130 per kg. Available packs: 1 kg, 5 kg, 10 kg, 20 kg.
-const PRICE_PER_KG = 130;
+// Price: ₹110 per kg. Available packs: 1 kg, 5 kg, 10 kg, 20 kg.
+const PRICE_PER_KG = 110;
 const PACKS = [1, 5, 10, 20] as const;
 
 
@@ -112,7 +112,7 @@ function PreOrderPage() {
               </span>
             </div>
             <p className="mt-3 text-xs text-muted-foreground">
-              ₹130 per kg · Choose your pack below.
+              ₹110 per kg · Choose your pack below.
             </p>
 
           </div>

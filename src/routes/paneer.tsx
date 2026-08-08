@@ -101,7 +101,7 @@ function PaneerPage() {
             />
             <div>
               <h2 className="font-serif text-xl font-semibold text-foreground">{product.name}</h2>
-              <p className="text-gold-deep">₹600 per kg</p>
+              <p className="text-gold-deep">₹449 per kg</p>
             </div>
           </div>
 
